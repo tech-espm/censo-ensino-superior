@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>|</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dm_local_oferta3txt.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_ANO_CENSO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_LOCAL_OFERTA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="NO_LOCAL_OFERTA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_IES" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_CAPITAL" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SEDE" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_CURSO_POLO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="CO_CURSO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_LOCAL_OFERTA_NEAD" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_LOCAL_OFERTA_UAB" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_LOCAL_OFERTA_REITORIA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_LOCAL_OFERTA_POLO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_LOCAL_OFERTA_UNID_ACADEMICA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="QT_COMPUTADOR_DISCENTE" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_ACESSIBILIDADE" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SINALIZACAO_TATIL" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_RAMPA_ACESSO_CORRIMAO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_ENTRADA_SAIDA_DIMENSAO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_AMBIENTE_DESOBSTRUIDO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SINALIZACAO_SONORA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SINALIZACAO_VISUAL" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_EQUIPAMENTO_ELETROMECANICO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_BANHEIRO_ADAPTADO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_ESPACO_ATENDIMENTO_ADAPTADO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_MOBILIARIO_ADAPTADO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_BEBEDOURO_LAVABO_ADAPTADO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_RESTAURANTE_UNIVERSITARIO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_QUADRA_POLIESPORTIVA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_PISCINA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_QUADRA_COBERTA_GINASIO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_CINEMA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_VESTIARIO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SERVICOS" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_ESTACIONAMENTO_DOCENTE" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_CANTINA_LANCHONETE" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_PISTA_ATLETISMO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_CAMPO_PRATICA_ESPORTIVA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_AUDITORIO_TEATRO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_REDE_SEM_FIO_COMU_ACADEMICA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_POSTO_ATENDIMENTO_1_SOCORRO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_BICICLETARIO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_ESTACIONAMENTO_ALUNO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_MORADIA_ESTUDANTIL" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_EQUIPA_VIDEOCONFERENCIA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SALA_COORDENACAO_POLO" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_MICROCOMPUTADOR" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_POSSUI_INTERNET_BANDA_LARGA" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+            <Field name="IN_SALA_ATENDIMENTO_TUTOR" size="254" source="File: C:\Users\Intel\Desktop\webAulas\2020.2\lab\microdados_ed_superior_2018\dados\dm_local_oferta3txt.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=CensoStaging01;UID=root;PWD=__EncPwd1__|||dm_local_oferta3</File>
+          <Passwords>49B64C1CFB3B9D77781C322DF</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=CensoStaging01
+Query=dm_local_oferta3</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>workflow_localoferta</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

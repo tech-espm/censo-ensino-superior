@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="306" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DM_DOCENTE.CSV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_ANO_CENSO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="CO_IES" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ADMINISTRATIVA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_ORGANIZACAO_ACADEMICA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="CO_DOCENTE_IES" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="ID_DOCENTE" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_SITUACAO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_ESCOLARIDADE" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_REGIME_TRABALHO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="NU_ANO_NASCIMENTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="NU_MES_NASCIMENTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="NU_DIA_NASCIMENTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="CO_UF_NASCIMENTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASCIMENTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_CEGUEIRA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_BAIXA_VISAO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_SURDEZ" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_AUDITIVA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_FISICA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_SURDOCEGUEIRA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_MULTIPLA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_DEFICIENCIA_INTELECTUAL" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_EAD" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_EXTENSAO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_GESTAO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_GRAD_PRESENCIAL" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_POS_EAD" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_POS_PRESENCIAL" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_SEQUENCIAL" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_ATUACAO_PESQUISA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_BOLSA_PESQUISA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_SUBSTITUTO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_EXERCICIO_DATA_REFERENCIA" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="IN_VISITANTE" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+            <Field name="TP_VISITANTE_IFES_VINCULO" size="254" source="File: C:\Users\Gustavo Mattos\Desktop\microdados_educacao_superior_2018\microdados_ed_superior_2018\dados\DM_DOCENTE.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="642" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=CensoStaging01;UID=root;PWD=__EncPwd1__|||dm_docente</File>
+          <Passwords>49B64C1CFB3B9D77781C322DF</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=CensoStaging01
+Query=dm_docente</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Docente 2018</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
